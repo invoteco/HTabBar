@@ -1,2 +1,2 @@
 # HTabBar
-CustomServerControl Horisontal TabBar
+CustomServerControl Horizontal TabBar
