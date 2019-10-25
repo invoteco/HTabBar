@@ -68,3 +68,8 @@ D:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\bin\Debug\ServerC
 D:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.csprojResolveAssemblyReference.cache
 D:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.dll
 D:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.pdb
+E:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\bin\Debug\ServerControl1.dll
+E:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\bin\Debug\ServerControl1.pdb
+E:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.csprojResolveAssemblyReference.cache
+E:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.dll
+E:\Invoteco\Web\Controls\Custom\TabBars\HTabBar\ServerControl1\obj\Debug\ServerControl1.pdb

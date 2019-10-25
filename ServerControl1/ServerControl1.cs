@@ -69,7 +69,7 @@ namespace ServerControl1
         #endregion properties
 
         #region methods       
-        
+        //В классе TabBar пока нет методов
         #endregion methods
     }
 
@@ -149,7 +149,7 @@ namespace ServerControl1
         }
         #endregion properties
 
-        #region methodsЫ
+        #region methods
         protected override void CreateChildControls()
         {
             this.Controls.Add(new TabButton(this));//
