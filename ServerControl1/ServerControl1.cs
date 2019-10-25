@@ -149,12 +149,16 @@ namespace ServerControl1
         }
         #endregion properties
 
-        #region methods
+        #region methodsЫ
         protected override void CreateChildControls()
         {
             this.Controls.Add(new TabButton(this));//
-            this.Controls.Add(new TabsDelimiter(this));
 
+            //Разделитель добавляется только, если IsDelimitered установлено в true
+            if (IsDelimitered == true) 
+            { 
+            this.Controls.Add(new TabsDelimiter(this));
+            }            
             base.CreateChildControls();
         }
 
@@ -180,7 +184,7 @@ namespace ServerControl1
             }
 
             #region fields
-            //Класс не содержит переменных
+            //Класс не содержит полей
             #endregion fields
 
             #region properties
