@@ -110,7 +110,10 @@ namespace ServerControl1
         }
         #endregion properties
     }
-  
+  /// <summary>
+  /// Кнопка вкладки с разделителем, добавляющимся в зависимости от значения свойства IsDelimiter.
+    /// Разделитель отображается, если IsDelimiter=true, и не отображается, если IsDelimiter=false.
+  /// </summary>
     public class TabButtonWithDelimiter : WebControl
     {
         #region construktor
@@ -119,6 +122,7 @@ namespace ServerControl1
 
         #region fields
         private bool _IsActive;
+        private bool _IsDelimiter;
         private string _ButtonText;
         private int _Delimiter_Width;//=10;
         #endregion fields
@@ -129,6 +133,12 @@ namespace ServerControl1
             get { return _IsActive; }
             set { _IsActive = value; }
         }
+        public bool IsDelimiter
+        {
+            get { return _IsDelimiter; }
+            set { _IsDelimiter = value; }
+        }
+
         public string ButtonText
         {
             get { return _ButtonText; }
@@ -147,7 +157,11 @@ namespace ServerControl1
         protected override void CreateChildControls()
         {
             this.Controls.Add(new TabButton(this));//
+
+            if (IsDelimiter == true) 
+            { 
             this.Controls.Add(new TabsDelimiter(this));
+            }
 
             base.CreateChildControls();
         }
